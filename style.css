@@ -370,7 +370,8 @@ color: #061248;
 /*  end country*/
 
 /* coutrytwo*/
-.countrytwo{
+/* .country_two u can use better names! */
+.countrytwo{ 
     background: url(../Exam.github.io/img/bckgr_grouptwo.jpg) no-repeat center;
     background-size: cover;
 
