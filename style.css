@@ -1,0 +1,484 @@
+body,
+header,
+div,
+ul,
+li,
+h2,
+h1,
+p,
+h3{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.page_info{
+    display: block;
+    height: 80px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 740px;
+    background-color: #5474fd;
+}
+.text_logo{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 2px;
+
+}
+.info_wrap{
+  width: 1110px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+   margin: 0 auto;
+  
+}
+.brand_wrap,.navigation_wrap{
+    width: calc((100% - 15px)/2);
+}
+.brand_wrap{
+    text-align: left;
+}
+.navigation_wrap{
+  
+    font-size: 16px;
+    line-height: 80px;
+    
+}
+.navigation-main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    box-sizing: border-box;
+    
+}
+.navigation_item{
+    list-style: none;
+    position: relative;
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navigation_link:hover::before{
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+   content: "";
+  bottom: 0;
+  height: 4px;
+  background-color: #061248;
+   
+}
+
+.navigation_link:hover{
+color: #061248;
+}
+.brand_link:hover{
+  color: #061248;
+}
+
+.banner{
+    background:  url(../Exam.github.io/img/banner_bckgr.jpg) no-repeat center top;
+      box-sizing: border-box;
+     min-height: 740px;
+      border: none;
+      background-size: cover;
+      text-align: center;
+      padding-top: 280px;    
+    }
+    
+    .banner_slogan{
+    
+        font-size: 48px;
+        color: #fff;
+       font-weight: 700;
+       letter-spacing: 5px; 
+    }
+
+  
+    .description_banner{
+       
+        font-size: 22px;
+        line-height: 26px;
+        color:white;
+        font-weight: 300;
+        letter-spacing: 5px;
+        margin-top: 18px;
+
+    }
+    .search{
+        width: 653px;
+        margin: 0 auto;
+
+    }
+      .search_form{
+          position: relative;
+          margin-top: 55px;
+        
+      }
+    .search_btn{
+       
+        border: none;
+        height: 60px;
+        width: 653px; 
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 60px;
+       padding-left: 122px;
+        box-sizing: border-box;
+        background-color: #f1f1f1;
+    }
+    
+    .btn_sub {
+        position: absolute;
+        width: 146px;
+        height: 57px;
+        top: 2px;
+        right: 2px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Aleo', serif;
+       background-color: #5474fd;
+        border: none;
+        color:#fff;
+        cursor: pointer;
+        letter-spacing: 2px;
+    }
+    input[type="text"]::-webkit-input-placeholder {
+        color: #c2c2c2;
+        font-family: 'Aleo', serif;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    } 
+    
+    input[type="text"]::-moz-placeholder {
+        color: #c2c2c2;
+        font-family: 'Aleo', serif;
+        font-size: 14px;
+        font-weight: 300;
+        
+    }
+    .icon_search{
+        font-weight: 300;
+    }
+    .scroll_down{
+        margin-top: 120px;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 2px;
+       
+    }
+    .down_link{
+        transition: all .5s; 
+    }
+    /* end banner */
+
+    /* start choose us*/
+    .chooseus{
+        background: url(../Exam.github.io/img/chooseUs_bkcgr.jpg) no-repeat center;
+        background-size: cover;
+        color: #fff;
+
+    }
+    .chooseus_wrap{
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        padding-bottom: 120px;
+    }
+    .column{
+        width: 1110px;
+        display: flex;
+        box-sizing: border-box;
+
+    }
+    
+    .chooseus_main{
+            width: calc((100% - 15px)/2);
+            margin-right: 15px;
+    }
+    .chooseus_img{
+        width: calc((100% - 15px)/2);
+        margin-left: 15px;
+    }
+    .chooseus_title{
+        font-family: 'Aleo', serif;
+        font-weight: 700;
+        font-size: 36px;
+        margin-top: 204px;
+        margin-bottom: 65px;
+
+    }
+    .chooseus_description{
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+    }
+     .btn_exp{
+         background-color: rgba(84, 116, 253, 0.6);
+         border: none;
+         width:225px;
+         height: 60px;
+         cursor: pointer;
+         
+     }
+     .btn_exp:hover{
+        box-shadow:  0 0 10px 0 rgb(245, 243, 243); 
+     }
+    
+    .btn_exr_name{
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 1.5px;
+    }
+    .chooseus_img_wrap{
+        margin-top: 120px;
+    }
+    .first-img{
+        margin-left: 59px;
+    }
+    .second-img{
+        float: right;
+    }
+    /* END */
+
+
+
+
+
+ /* START howitwork */
+.howitwork{
+    background-color: #333333;
+}
+
+.howitwork_wrap{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+   flex-direction: column;
+   padding-top: 44px;
+   padding-bottom: 116px;
+}
+.line-img{
+    display: block;
+    margin: 0 auto;
+}
+ .howitwork_list{
+     display: flex;
+     justify-content: space-between;
+     margin-top: -50px;
+ }
+.item_how{
+  width: 33%;
+    text-align: center;
+   
+}
+.search_img{
+    display: block;
+    margin: 0 auto;
+}  
+.name_search{
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+.search_img:hover{
+
+    transition: all .5s; 
+    
+}
+  
+
+/* country */
+
+.country{
+    background: url(../Exam.github.io/img/bkcr_groupone.jpg) no-repeat center;
+    background-size: cover;
+}
+.country_wrap{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 220px;
+    padding-bottom: 100px;
+   display: flex;
+
+}
+.country_one{
+   width: 50%;
+   margin-right: 15px;
+   background-color: rgba(44,40,40, 0.9);
+   padding-left: 55px;
+   box-sizing: border-box;
+   color: #fff;
+   
+}
+.name_country{
+    font-size: 20px;
+   padding-top: 52px;
+}
+.country_one_title{
+    font-size: 20px;
+   padding-top: 52px;
+}
+.country_one_description{
+    font-size: 16px;
+    padding-top: 52px;
+    line-height: 26px;
+    font-weight: 300;
+
+}
+   
+.btn_exp{
+    background-color: rgba(84, 116, 253, 0.6);
+    border: none;
+    width:225px;
+    height: 60px;
+    cursor: pointer;
+    
+}
+
+.btn_exp_name{
+   font-family: 'Aleo', serif;
+   font-weight: 400;
+   font-size: 16px;
+   color: #fff;
+   letter-spacing: 1.5px;
+}   
+.btn_country{
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+/*  end country*/
+
+/* coutrytwo*/
+.countrytwo{
+    background: url(../Exam.github.io/img/bckgr_grouptwo.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.countrytwo_wrap{
+display: flex;
+flex-direction: row-reverse;
+}
+.country_two{
+  flex-direction: row-reverse;
+  margin-right: 0;
+  margin-left: 15px;
+    
+}
+/* end countertwo */
+.comments{
+text-align: center;
+background: url(../Exam.github.io/img/comment_bckgr.jpg) no-repeat center;
+background-size: cover;
+padding-top: 121px;
+padding-bottom: 200px;
+}
+.comments_wrap{
+    max-width: 1110px;
+ margin: 0 auto;
+display: flex;
+
+}
+.comment_title{
+    margin-bottom: 100px;
+    color: #fff;
+    font-size: 36px;
+}
+.comment_description{
+   width: 100%;
+   text-align: left;
+    background-color: rgba(44,40,40, 0.9);
+    padding-left: 55px;
+    
+    box-sizing: border-box;
+    color: #fff;
+    
+ }
+ 
+.comment_description_title{
+     font-size: 20px;
+    padding-top: 50px;
+ }
+ .comment_description_info{
+   
+     font-size: 16px;
+     padding-top: 46px;
+     line-height: 26px;
+     font-weight: 300;
+ 
+ }
+ .quote{
+    position: relative;
+     bottom: 7px;
+     color: #506be2;
+     padding-bottom: 5px;
+ }
+ /*  end comment*/
+
+ /* footer*/
+
+
+ .page_footer{
+     background-color: #232323;
+   color: #fff;
+   padding-top: 122px;
+   padding-bottom: 50px;
+ }
+ .footer_wrap{
+     max-width: 170px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+    text-align: center;
+ }
+ .footer_logo{
+     margin-bottom: 30px;
+ }
+ .footer_logo_name{
+     margin-bottom: 16px;
+ }
+.footer_logo_link:hover{
+     color: #5474fd;
+ }
+ .footer_logo_text{
+   font-size: 24px;
+   font-weight: 700;
+  cursor: pointer;
+
+ }
+ .footer_description{
+    font-size: 16px;
+    font-weight: 700;
+ }
+ .footer_social{
+     display: flex;
+     justify-content: space-between;
+    
+ }
+
+ .social_link:hover{
+color: #5474fd;
+ }   
+ .link_youtube:hover{
+     color: red;
+ }
